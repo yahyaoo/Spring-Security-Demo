@@ -1,0 +1,10 @@
+spring:
+  redis:
+    host: 192.168.22.129
+    port: 6379
+
+  session:
+    timeout: 30
+    store-type: redis
+server:
+  port: 8081
